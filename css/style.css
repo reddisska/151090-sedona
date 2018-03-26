@@ -182,7 +182,7 @@ input[type="radio"].visually-hidden {
   width: 1200px;
   height: 568px;
   background-color: #ffffff;
-  background-image: url("/img/main-background.jpg");
+  background-image: url("../img/main-background.jpg");
   background-position: 0 -56px;
   background-repeat: no-repeat;
 }
@@ -320,7 +320,7 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	
 	background-color: #81b3d2;
-	background-image: url("/img/filter-background.jpg");
+	background-image: url("../img/filter-background.jpg");
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -366,7 +366,7 @@ input[type="radio"].visually-hidden {
 
 	width: 23px;
 	height: 23px;
-	background-image: url("/img/checkbox-off.svg");
+	background-image: url("../img/checkbox-off.svg");
 	background-repeat: no-repeat;
 	background-color: transparent;
 }
@@ -380,7 +380,7 @@ input[type="radio"].visually-hidden {
 
 	width: 23px;
 	height: 23px;
-	background-image: url("/img/checkbox-on.svg");
+	background-image: url("../img/checkbox-on.svg");
 	background-repeat: no-repeat;
 	background-color: transparent;
 }
@@ -393,7 +393,7 @@ input[type="radio"].visually-hidden {
 
 	width: 23px;
 	height: 23px;
-	background-image: url("/img/checkbox-off-disabled.svg");
+	background-image: url("../img/checkbox-off-disabled.svg");
 	background-repeat: no-repeat;
 	background-color: transparent;
 }
@@ -406,7 +406,7 @@ input[type="radio"].visually-hidden {
 
 	width: 23px;
 	height: 23px;
-	background-image: url("/img/checkbox-on-disabled.svg");
+	background-image: url("../img/checkbox-on-disabled.svg");
 	background-repeat: no-repeat;
 	background-color: transparent;
 }
@@ -764,11 +764,11 @@ input[type="radio"].visually-hidden {
 	height: 256px;
 }
 .reason-one {
-	background-image: url("/img/advantages-1.jpg");
+	background-image: url("../img/advantages-1.jpg");
 	background-repeat: no-repeat;	
 }
 .reason-two {
-	background-image: url("-img/advantages-2.jpg");
+	background-image: url("../img/advantages-2.jpg");
 	background-repeat: no-repeat;	
 }
 .colored {
@@ -811,7 +811,7 @@ input[type="radio"].visually-hidden {
 	margin-left: -37px;
 	width: 75px;
 	height: 75px;
-	background-image: url("/img/icon-house.svg");
+	background-image: url("../img/icon-house.svg");
 	background-repeat: no-repeat;
 }
 .food::before {
@@ -822,7 +822,7 @@ input[type="radio"].visually-hidden {
 	margin-left: -37px;
 	width: 75px;
 	height: 75px;
-	background-image: url("/img/icon-food.svg");
+	background-image: url("../img/icon-food.svg");
 	background-repeat: no-repeat;
 }
 .souvenirs::before {
@@ -833,7 +833,7 @@ input[type="radio"].visually-hidden {
 	margin-left: -37px;
 	width: 75px;
 	height: 75px;
-	background-image: url("/img/icon-souvenirs.svg");
+	background-image: url("../img/icon-souvenirs.svg");
 	background-repeat: no-repeat;
 }
 /*Поиск гостиницы*/
@@ -915,19 +915,19 @@ input[type="radio"].visually-hidden {
 	padding-bottom: 8px;
 	box-sizing: border-box;
 	
-	background-image: url("/img/icon-calendar.svg");
+	background-image: url("../img/icon-calendar.svg");
 	
   background-position: 300px center;
   background-repeat: no-repeat;
 }
 .calendar:hover {
-	background-image: url("/img/icon-calendar-hover.svg");
+	background-image: url("../img/icon-calendar-hover.svg");
 }
 .calendar:focus {
-	background-image: url("/img/icon-calendar-hover.svg");
+	background-image: url("../img/icon-calendar-hover.svg");
 }
 .calendar:active {
-	background-image: url("/img/icon-calendar-active.svg");
+	background-image: url("../img/icon-calendar-active.svg");
 }
 .clients-age {
 	width: 100px;
