@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize_min.css">	
-	<link rel="stylesheet" href="css/style_min.css">	
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 	<div class="layout-wrapper">
@@ -85,19 +85,19 @@
 						<fieldset class="search-form-fieldset">
 							<legend class="visually-hidden">Форма поиска гостиницы</legend>
 							<div class="appointment-item">
-								<label class="arrival" for="search-form-arrival-day">Дата заезда:</label><input class="calendar calendar-icon" type="text" value="24 апреля 2017" id="search-form-arrival-day" name="arrival-day">
+								<label class="arrival" for="search-form-arrival-day">Дата заезда:</label><input class="calendar calendar-icon" type="text" placeholder="24 апреля 2017" value="" id="search-form-arrival-day" name="arrival-day">
 							</div>
 							<div class="appointment-item">
-								<label class="departure" for="search-form-departure-day">Дата выезда:</label><input class="calendar calendar-icon" type="text" value="4 июля 2017" id="search-form-departure-day" name="departure-day">
+								<label class="departure" for="search-form-departure-day">Дата выезда:</label><input class="calendar calendar-icon" type="text" placeholder="4 июля 2017" value="" id="search-form-departure-day" name="departure-day">
 							</div>
 							<div class="appointment-item">
 								<label class="clients-age" for="search-form-adult">Взрослые:</label>
 								<div class="amount-buttons">
-									<button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-minus">&ndash;</span></button><input class="number-of-clients" type="text" value="2" id="search-form-adult" name="adult"><button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-plus">+</span></button>
+									<button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-minus">&ndash;</span></button><input class="number-of-clients" type="text" placeholder="2" id="search-form-adult" name="adult"><button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-plus">+</span></button>
 								</div>
 								<label class="clients-age" for="search-form-children">Дети:</label>
 								<div class="amount-buttons">
-									<button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-minus">&ndash;</span></button><input class="number-of-clients" type="text" value="0" id="search-form-children" name="children"><button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-plus">+</span></button>
+									<button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-minus">&ndash;</span></button><input class="number-of-clients" type="text" placeholder="0" value="" id="search-form-children" name="children"><button class="button button-number-of-clients" type="button"><span class="button-number-of-clients-plus">+</span></button>
 								</div>
 							</div>
 							<button class="button submit-search-hotel" type="submit">Найти</button>
