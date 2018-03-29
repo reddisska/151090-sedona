@@ -1,4 +1,4 @@
-body {
+﻿body {
   margin: 0;	
   padding: 0;
 	
@@ -17,17 +17,14 @@ a {
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 
 html {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .content-box-component {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -49,7 +46,6 @@ input[type="radio"].visually-hidden {
 
   white-space: nowrap;
 
-  -webkit-clip-path: inset(100%);
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -61,7 +57,6 @@ input[type="radio"].visually-hidden {
   width: 1200px;
   margin: 0 auto;
   
-  -webkit-box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);  
   box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 
@@ -99,16 +94,9 @@ input[type="radio"].visually-hidden {
 .site-navigation {
   position: relative;  
     
-  display: -webkit-box;    
-  display: -ms-flexbox;     
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;  
   width: 1200px;
   min-height: 56px;
@@ -121,8 +109,6 @@ input[type="radio"].visually-hidden {
 .site-navigation li {
   width: 240px;
   margin: 15px auto;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   
   text-align: center;
@@ -231,7 +217,6 @@ input[type="radio"].visually-hidden {
 
 .search-form input[type="text"],
 .search-form input[type="password"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   
   font: inherit;
@@ -264,16 +249,8 @@ input[type="radio"].visually-hidden {
   position: absolute;
   bottom: 0;
   
-  display: -webkit-box;
-  
-  display: -ms-flexbox;
-  
   display: flex;	
-  -webkit-box-pack: center;	
-  -ms-flex-pack: center;	
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;	
   width: 100%;	
   padding: 36px 0;
@@ -290,13 +267,8 @@ input[type="radio"].visually-hidden {
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;	
-  -webkit-box-pack: center;	
-  -ms-flex-pack: center;	
   justify-content: center;	
   width: 400px;
   margin: 0;
@@ -306,16 +278,9 @@ input[type="radio"].visually-hidden {
 }
 
 .social-button {
-  display:-webkit-box;
-  display:-ms-flexbox;
   display:flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;	
   width: 46px;
   height: 48px;
@@ -343,14 +308,8 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer-copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;	
   width: 400px;
 }
@@ -376,8 +335,6 @@ input[type="radio"].visually-hidden {
 
 /*Отели*/
 .filter {	
-  display: -webkit-box;	
-  display: -ms-flexbox;	
   display: flex;
 	
   width: 100%;
@@ -438,9 +395,6 @@ input[type="radio"].visually-hidden {
   display: block;
   
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none; 
 }
 
@@ -510,11 +464,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-sorting {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 0 73px;
   
@@ -534,11 +484,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-sorting-list  {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;	
   
   padding:0;
@@ -653,8 +599,6 @@ input[type="radio"].visually-hidden {
 
   background: #ffffff;
   
-  -webkit-transform: translate(-50%, -50%);  
-  -ms-transform: translate(-50%, -50%);  
   transform: translate(-50%, -50%);
 }
 
@@ -731,7 +675,6 @@ input[type="radio"].visually-hidden {
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
-  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   
   cursor: pointer;
@@ -794,12 +737,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotels-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   margin: 0;
   padding: 0;
@@ -808,8 +746,6 @@ input[type="radio"].visually-hidden {
 }
 
 .hotels-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;	
   width:100%;	
   padding: 30px 73px;
@@ -895,15 +831,8 @@ input[type="radio"].visually-hidden {
 }
 
 .hotels-item-rating {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;  
   width: 110px;
   height: 92px;
@@ -970,15 +899,9 @@ input[type="radio"].visually-hidden {
   position: relative;
   bottom:0;
   
-  display: -webkit-box;  
-  display: -ms-flexbox;  
   display: flex;	
-  -webkit-box-pack: center;	
-  -ms-flex-pack: center;	
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-   align-items: center;
+  align-items: center;
   padding: 36px 0;
   
   background-color: rgba(255, 255, 255, 1);	
@@ -1013,10 +936,7 @@ input[type="radio"].visually-hidden {
 }
 
 .reasons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -1176,9 +1096,9 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form-wrapper {
-  position: relative;
+	position: relative;
 	
-  text-align: center;
+	text-align: center;
 }
 
 .search-form {
@@ -1186,15 +1106,9 @@ input[type="radio"].visually-hidden {
   top: 100%;
   left: 50%;
   
-  display: -webkit-box;  
-  display: -ms-flexbox;  
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;	
-  -webkit-box-sizing: border-box;	
   box-sizing: border-box;
   width: 568px;
   min-height: 395px;
@@ -1216,11 +1130,25 @@ input[type="radio"].visually-hidden {
   border: none;
 }
 
+.appointment-item input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.appointment-item input::-moz-placeholder {
+  color: #000000;  
+  opacity: 1;
+}
+
+.appointment-item input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.appointment-item input::placeholder  {
+  color: #000000;
+}
+
 .appointment-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   margin-bottom: 30px;
   
@@ -1232,8 +1160,6 @@ input[type="radio"].visually-hidden {
 }
 
 .arrival {
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   
   width: 110px;
@@ -1241,9 +1167,7 @@ input[type="radio"].visually-hidden {
 }
 
 .departure {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   
   width: 110px;
   margin-right: 3px;
@@ -1256,7 +1180,6 @@ input[type="radio"].visually-hidden {
   padding-left: 10px;
   padding-right: 45px;
   padding-bottom: 6px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }	
   
@@ -1280,9 +1203,7 @@ input[type="radio"].visually-hidden {
 }
 
 .appointment-item .clients-age {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   
   width: 100px;
   margin-right: 12px;
@@ -1378,20 +1299,6 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 
-@-webkit-keyframes appearance {
-  from {top: 0; }
-  10%  {top: 10px; }
-  20%  {top: 15px; }
-  30%  {top: 20px; }
-  40%  {top: 25px; }
-  50%  {top: 40px; }
-  60%  {top: 45px; }
-  70%  {top: 50px; }
-  85%  {top: 55px; }
-  89%  {top: 60px; }
-  100% {top: 65px;}
-}
-
 @keyframes appearance {
   from {top: 0; }
   10%  {top: 10px; }
@@ -1407,8 +1314,6 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form {
-  -webkit-animation-name: appearance;
-          animation-name: appearance;
-  -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
+  animation-name: appearance;
+  animation-duration: 0.7s;
 }
