@@ -1254,10 +1254,10 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding-top: 6px;
   padding-left: 10px;
-  padding-right: 36px;
+  padding-right: 45px;
   padding-bottom: 6px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }	
   
 .calendar:hover {
@@ -1275,7 +1275,7 @@ input[type="radio"].visually-hidden {
 
 .calendar-icon {
   background-image: url("../img/icon-calendar.svg");
-  background-position: 315px center;
+  background-position: 300px center;
   background-repeat: no-repeat;
 }
 
