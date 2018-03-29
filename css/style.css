@@ -1,14 +1,12 @@
 body {
   margin: 0;	
   padding: 0;
-	
   font-size: 14px;
   line-height: 21px;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   color: #000000;
-	
   background-color: #f2f2f2;
 }  
 
@@ -92,7 +90,6 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
   font-weight: bold;
   color: #000000;
-  
   background-color: #ffffff;
 }
 
@@ -114,7 +111,6 @@ input[type="radio"].visually-hidden {
   min-height: 56px;
   margin: 0;
   padding: 0;
-  
   list-style: none;
 }
 
@@ -189,10 +185,8 @@ input[type="radio"].visually-hidden {
 .intro {
   position: relative;
   top: 0;
-  
   width: 1200px;
   height: 568px;
-  
   background-color: #ffffff;
   background-image: url("../img/main-background.jpg");
   background-position: 0 -56px;
@@ -206,11 +200,9 @@ input[type="radio"].visually-hidden {
 .button-search {
   width: 568px;
   padding: 30px 110px;
-  
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-  
   background-color: #766357;
 }
 
@@ -225,7 +217,6 @@ input[type="radio"].visually-hidden {
 
 .button-search:active {
   color: rgba(255, 255, 255, 0.3);
-  
   background-color: #503e33;	
 }
 
@@ -233,13 +224,11 @@ input[type="radio"].visually-hidden {
 .search-form input[type="password"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  
   font: inherit;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;	
   text-transform: uppercase;
-	
   background-color: #f2f2f2;
   border: none;	
 }
@@ -263,11 +252,8 @@ input[type="radio"].visually-hidden {
 .main-footer {
   position: absolute;
   bottom: 0;
-  
   display: -webkit-box;
-  
   display: -ms-flexbox;
-  
   display: flex;	
   -webkit-box-pack: center;	
   -ms-flex-pack: center;	
@@ -277,7 +263,6 @@ input[type="radio"].visually-hidden {
   align-items: center;	
   width: 100%;	
   padding: 36px 0;
-  
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -387,7 +372,6 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
-	
   background-color: #81b3d2;
   background-image: url("../img/filter-background.jpg");
   background-position: 0 0;
@@ -450,14 +434,11 @@ input[type="radio"].visually-hidden {
 
 .filter-input-checkbox + label::before {
   content: "";
-  
   position: absolute;
   top: 0;
   left:-40px;
-
   width: 23px;
   height: 23px;
-  
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -472,7 +453,6 @@ input[type="radio"].visually-hidden {
 
   width: 23px;
   height: 23px;
-  
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -481,14 +461,11 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox:checked 
 .filter-input-checkbox:disabled + label::before {
   content: "";
- 
   position: absolute;
   top: 0;
   left: -40px;
-
   width: 23px;
   height: 23px;
-  
   background-image: url("../img/checkbox-off-disabled.svg");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -503,7 +480,6 @@ input[type="radio"].visually-hidden {
 
   width: 23px;
   height: 23px;
-  
   background-image: url("../img/checkbox-on-disabled.svg");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -517,7 +493,6 @@ input[type="radio"].visually-hidden {
   -ms-flex-align: center;
   align-items: center;
   padding: 0 73px;
-  
   background-color: #ffffff;
 }
 
@@ -660,13 +635,10 @@ input[type="radio"].visually-hidden {
 
 .price-controls .min-price {  
   display: inline-block;
-  
   padding-top: 3px;
-
   font-size: 14px;
   line-height: 21px;
   vertical-align: top;
-  
   cursor: pointer;
 }
 
@@ -907,7 +879,6 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;  
   width: 110px;
   height: 92px;
-  
   text-align: right;
 }
 
@@ -980,7 +951,6 @@ input[type="radio"].visually-hidden {
   -ms-flex-align: center;
    align-items: center;
   padding: 36px 0;
-  
   background-color: rgba(255, 255, 255, 1);	
 }	
 
@@ -1050,9 +1020,7 @@ input[type="radio"].visually-hidden {
 .colored {
   padding: 0 50px;
   padding-top: 50px;
-  
   color: #ffffff;
-  
   background-color: #81b3d2;
 }
 
@@ -1108,7 +1076,6 @@ input[type="radio"].visually-hidden {
   width: 75px;
   height: 75px;
   margin-left: -37px;
-  
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
 }
@@ -1123,22 +1090,18 @@ input[type="radio"].visually-hidden {
   width: 75px;
   height: 75px;
   margin-left: -38px;
-  
   background-image: url("../img/icon-food.svg");
   background-repeat: no-repeat;
 }
 
 .souvenirs::before {
   content: "";
-  
   position: absolute;
   top: 56px;
-  left: 50%;  
-  
+  left: 50%;
   width: 75px;
   height: 75px;
   margin-left: -32px;
-  
   background-image: url("../img/icon-souvenirs.svg");
   background-repeat: no-repeat;
 }
@@ -1146,7 +1109,6 @@ input[type="radio"].visually-hidden {
 /*Поиск гостиницы*/
 .search-hotel {
   color: #000000;
-  
   background-color: #ffffff;
   border: 1px solid #ffffff;
 }
@@ -1177,7 +1139,6 @@ input[type="radio"].visually-hidden {
 
 .search-form-wrapper {
   position: relative;
-	
   text-align: center;
 }
 
@@ -1185,7 +1146,6 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 100%;
   left: 50%;
-  
   display: -webkit-box;  
   display: -ms-flexbox;  
   display: flex;
@@ -1200,12 +1160,10 @@ input[type="radio"].visually-hidden {
   min-height: 395px;
   margin-left: -284px;
   padding-top: 50px;
-	
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;	
   color: #000000;
-  
   background-color: #ffffff;
 }
 
@@ -1266,6 +1224,10 @@ input[type="radio"].visually-hidden {
 
 .calendar:focus {
   background-image: url("../img/icon-calendar-hover.svg");
+}
+
+.calendar:focus {
+  background-image: url("img/icon-calendar-hover.svg");
   outline: none;
 }
 
@@ -1275,6 +1237,10 @@ input[type="radio"].visually-hidden {
 
 .calendar-icon {
   background-image: url("../img/icon-calendar.svg");
+}
+
+.calendar-icon {
+  background-image: url("img/icon-calendar.svg");
   background-position: 315px center;
   background-repeat: no-repeat;
 }
