@@ -256,6 +256,7 @@ input[type="radio"].visually-hidden {
   padding: 36px 0;
   
   background-color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
 }
 
 .hashtag {
@@ -339,7 +340,7 @@ input[type="radio"].visually-hidden {
 	
   width: 100%;
   min-height:  217px;
-  padding: 28px 73px;
+  padding: 28px 73px 0 73px;
 	
   font-size: 14px;
   line-height: 21px;
@@ -386,7 +387,7 @@ input[type="radio"].visually-hidden {
 
 .filter-options {
   padding-left: 40px;
-  margin-bottom: 23px;	
+  margin-bottom: 22px;	
 }
 
 .filter-options label {
@@ -409,8 +410,8 @@ input[type="radio"].visually-hidden {
   top: 0;
   left:-40px;
 
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 26px;
   
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
@@ -424,15 +425,14 @@ input[type="radio"].visually-hidden {
   top: 0;
   left:-40px;
 
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 26px;
   
   background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-color: transparent;
 }
 
-.filter-input-checkbox:checked 
 .filter-input-checkbox:disabled + label::before {
   content: "";
  
@@ -440,8 +440,8 @@ input[type="radio"].visually-hidden {
   top: 0;
   left: -40px;
 
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 26px;
   
   background-image: url("../img/checkbox-off-disabled.svg");
   background-repeat: no-repeat;
@@ -455,8 +455,8 @@ input[type="radio"].visually-hidden {
   top: 0;
   left:-40px;
 
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 26px;
   
   background-image: url("../img/checkbox-on-disabled.svg");
   background-repeat: no-repeat;
@@ -564,11 +564,12 @@ input[type="radio"].visually-hidden {
   margin: 0 0 33px auto; 
   
   text-transform: uppercase;
-
   color: #ffffff;
+  text-align: center;
 }
 
 .filter-range-title {
+  display: block;
   margin-bottom: 9px;
 
   font-size: 16px;
@@ -720,6 +721,7 @@ input[type="radio"].visually-hidden {
   border: 2px solid #ffffff;
   border-radius: 2px;  cursor: pointer;
 }
+
 
 .btn-transparent:hover {
   color: #000000;
@@ -1121,6 +1123,8 @@ input[type="radio"].visually-hidden {
   color: #000000;
   
   background-color: #ffffff;
+  
+  z-index: 3;
 }
 
 .search-form-fieldset {
@@ -1150,6 +1154,7 @@ input[type="radio"].visually-hidden {
 .appointment-item {
   display: flex;
   flex-wrap: nowrap;
+  
   margin-bottom: 30px;
   
   text-align: left;
@@ -1163,43 +1168,50 @@ input[type="radio"].visually-hidden {
   align-self: center;
   
   width: 110px;
-  margin-right: 3px;
+  margin-right: 4px;
 }
 
 .departure {
   align-self: center;
   
   width: 110px;
-  margin-right: 3px;
+  margin-right: 4px;
 }
 
 .calendar {
-  width:345px;
+  width: 305px;
   margin: 0;
   padding-top: 6px;
   padding-left: 10px;
-  padding-right: 45px;
+  padding-right: 10px;
   padding-bottom: 6px;
   box-sizing: border-box;
 }	
-  
-.calendar:hover {
-  background-image: url("../img/icon-calendar-hover.svg");
+
+.button-calendar {
+  background-color: #f2f2f2;
+  border: none;
 }
 
-.calendar:focus {
-  background-image: url("../img/icon-calendar-hover.svg");
-  outline: none;
-}
-
-.calendar:active {
-  background-image: url("../img/icon-calendar-active.svg");
+.button-calendar:focus {
+  background-color: #ffffff;
+  outline: 2px solid #ebebeb;
 }
 
 .calendar-icon {
-  background-image: url("../img/icon-calendar.svg");
-  background-position: 300px center;
-  background-repeat: no-repeat;
+  fill: #a9a9a9;
+}
+
+.button-calendar:hover .calendar-icon {
+  fill: #000000;
+}
+
+.button-calendar:focus .calendar-icon {
+  fill: #81b3d2;
+}
+
+.button-calendar:active .calendar-icon {
+  fill: #81b3d2;
 }
 
 .appointment-item .clients-age {
@@ -1317,3 +1329,19 @@ input[type="radio"].visually-hidden {
   animation-name: appearance;
   animation-duration: 0.7s;
 }
+
+.map {
+  position: relative;
+}
+
+.map p {
+  margin: 0;
+}
+
+.map_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
