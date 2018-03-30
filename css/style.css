@@ -60,8 +60,7 @@ input[type="radio"].visually-hidden {
   box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 
-.button,
-.button.hotel-more-info {
+.button {
   font: inherit;	
   font-weight: bold;
   text-transform: uppercase;	
@@ -72,13 +71,11 @@ input[type="radio"].visually-hidden {
   border: none;	
 }
 
-.button:hover,
-.button.hotel-more-info:hover{
+.button:hover{
   background-color: #669ec0;
 }
 
-.button:focus,
-.button.hotel-more-info:focus {
+.button:focus {
   background-color: #669ec0;
   outline: none;
 }
@@ -149,11 +146,6 @@ input[type="radio"].visually-hidden {
 .site-navigation-active  a:focus,
 .site-navigation-active  a:active {
   color: #766357;
-}
-
-.site-navigation-active  a:focus,
-.site-navigation-active  a:active {
-  border-bottom: 1px solid #766357;
 }
 
 .main-header-logo {
@@ -232,13 +224,14 @@ input[type="radio"].visually-hidden {
 .search-form input[type="text"]:hover,
 .search-form input[type="password"]:hover {
   background-color: #ebebeb;
+  border: none;
 }
 
 .search-form input[type="text"]:focus,
 .search-form input[type="password"]:focus {
   background-color: #ffffff;
-  border: 2px solid #e5e5e5;
-  outline: none;
+  border: none;
+  outline: #e5e5e5 2px solid;
 }
 
 .number-of-clients {
@@ -399,10 +392,6 @@ input[type="radio"].visually-hidden {
   user-select: none; 
 }
 
-.filter-input-checkbox:focus+ label {
-  text-decoration: underline;
-}
-
 .filter-input-checkbox + label::before {
   content: "";
   
@@ -515,7 +504,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-sorting-list  a {
-  color: #000000;
+  color: #dadada;
   border-bottom: 1px dotted #81b3d2;
 }
 
@@ -533,7 +522,7 @@ input[type="radio"].visually-hidden {
 
 .search-sorting-current a,
 .search-sorting-current a:hover,
-.search-sorting-current a :focus,
+.search-sorting-current a:focus,
 .search-sorting-current a:active {
   color: #81b3d2;
   border-bottom: none;
@@ -555,9 +544,28 @@ input[type="radio"].visually-hidden {
   fill: rgba(0, 0, 0, 0.3);
 }
 
+.sorting-icon:hover,
+.sorting-icon:focus {
+  fill: rgba(0, 0, 0, 1);
+}
+
+.sorting-icon:active {
+  fill: rgba(129, 179, 210, 1);
+}
+
 .sorting-icon-current {
   fill: rgba(129, 179, 210, 1);
 }
+
+.sorting-icon-current:hover, 
+.sorting-icon-current:focus {
+  fill: rgba(0, 0, 0, 1);
+}
+
+.sorting-icon-current:active {
+   fill: rgba(129, 179, 210, 1);
+}
+
 
 .filter-range {
   width: 318px;
@@ -565,7 +573,6 @@ input[type="radio"].visually-hidden {
   
   text-transform: uppercase;
   color: #ffffff;
-  text-align: center;
 }
 
 .filter-range-title {
@@ -699,6 +706,15 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
+.range-toggle:active {
+  width: 21px;
+  height: 21px;
+  
+  border: 9px solid #ffffff;  
+  
+  cursor: pointer;
+}
+
 .range-toggle-min {
   left: 0;
 }
@@ -811,13 +827,18 @@ input[type="radio"].visually-hidden {
   margin-right: 3px;
 }
 
-.hotel-more-info {
+.button.hotel-more-info {
   display:  block;
   margin-top: 17px;
   padding: 3px 17px 4px;
-  
-  font-size: 14px;
+  font: inherit;	
   font-weight: bold;
+  text-transform: uppercase;	
+  text-align: center;
+  color: #ffffff;
+  
+  background-color: #81b3d2;
+  border: none;	
 }
 
 .hotel-booking {
@@ -856,9 +877,18 @@ input[type="radio"].visually-hidden {
   height: 17px;
 }
 
-.button.hotel-more-info:active {
-  background-color: #5496bd;
+.hotel-type .hotel-more-info:active {
+  background-color: 503e33;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.button.hotel-more-info:hover{
+  background-color: #669ec0;
+}
+
+.button.hotel-more-info:focus {
+  background-color: #669ec0;
+  outline: none;
 }
 
 .button.button-number-of-clients {
@@ -881,10 +911,6 @@ input[type="radio"].visually-hidden {
 .button.filter-button:focus {
   color: #000000;
   background-color: #ffffff;
-}
-
-.button.hotel-booking {
-  background-color: #766357;
 }
 
 .button.hotel-booking:hover,
@@ -1186,6 +1212,7 @@ input[type="radio"].visually-hidden {
   padding-right: 10px;
   padding-bottom: 6px;
   box-sizing: border-box;
+  border: none;
 }	
 
 .button-calendar {
@@ -1194,8 +1221,8 @@ input[type="radio"].visually-hidden {
 }
 
 .button-calendar:focus {
-  background-color: #ffffff;
-  outline: 2px solid #ebebeb;
+  background-color: #f2f2f2;
+  outline: none;
 }
 
 .calendar-icon {
@@ -1284,8 +1311,6 @@ input[type="radio"].visually-hidden {
 
 .button.button-number-of-clients:focus {
   color: #000000;
-  
-  border-bottom: 1px solid #000000;
 }
 
  .button-number-of-clients:active {
