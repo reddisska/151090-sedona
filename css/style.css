@@ -1241,15 +1241,13 @@ input[type="radio"].visually-hidden {
 
 .calendar {
   width: 311px;
+  height: 38px;
   margin: 0;
   padding-top: 6px;
   padding-left: 11px;
   padding-right: 10px;
   padding-bottom: 6px;
   box-sizing: border-box;
-  
-  /*временно*/
-  background-color: rgba(250, 25, 250, 0.1) !important;
 }	
 
 .button-calendar {
@@ -1257,14 +1255,10 @@ input[type="radio"].visually-hidden {
   top: 0;
   right: 18px;
   
-  дшту-рушпреЖ 0ж
   margin: 0;
   padding: 8px 8px 5px 6px;
   background-color: #f2f2f2;
   border: none;
-  
-  /*временно*/
-  background-color: rgba(50, 25, 250, 0.1) !important;
 }
 
 .button-calendar:focus {
@@ -1316,9 +1310,6 @@ input[type="radio"].visually-hidden {
   padding: 0;
   
   vertical-align: middle;
-  
-   /*временно*/
-  background-color: rgba(0, 225, 45, 0.1) !important;
 }
 
 .number-of-clients {
