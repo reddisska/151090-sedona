@@ -1,0 +1,1 @@
+var hotelSearch=document.querySelector(".button-search"),popup=document.querySelector(".search-form");function hideSearch(){popup.classList.add("form-hidden")}document.addEventListener("DOMContentLoaded",hideSearch),hotelSearch.addEventListener("click",function(e){e.preventDefault(),popup.classList.toggle("form-hidden")},!1);
