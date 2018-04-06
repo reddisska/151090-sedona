@@ -660,7 +660,7 @@ input[type="radio"].visually-hidden {
 }
 
 
-.button-number-of-clients:hover {
+.button.button-number-of-clients:hover {
   color: #000000;
 }
 
